@@ -1,0 +1,125 @@
+html, body, h1, h2, h3,
+p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+}
+.header {
+	background-color: #EDC951;
+}
+.header h1 {
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 36px;
+	color: #00A0B0;
+	padding: 20px 0 20px 0;
+	font-weight: 600;
+}
+.header img {
+	width: 600px;
+	display: block;
+	margin: auto;
+}
+.tagline {
+	background-color: #00A0B0;
+}
+.tagline h2 {
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 24px;
+	font-weight: 200;
+	color: #ffffff;
+	padding: 10px 0 10px 0;
+}
+.navigation {
+	background-color: #0EBFE9;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+.value-proposition h3, .main-content h3 {
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	padding: 14px 0 14px 0;
+	font-weight: 600;
+	color: #ffffff;
+}
+.team-image {
+	height: 410px;
+	background: #5CACEE url(images/team.jpg) top center no-repeat;
+	margin: auto;
+	padding: 20px;
+}
+.navigation li {
+	/*list-style-type: none;*/
+	display: inline;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	padding: 0 20px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 600;
+}
+a:hover {
+	color: #000000;
+}
+.main-content {
+	background-color: #5CACEE;
+}
+.main-content p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #000000;
+}
+.main-content li {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: #000000;
+	line-height: 1.5;
+}
+.value-proposition {
+	background-color: #5CACEE;
+	padding-bottom: 10px;
+	line-height: 1.2;
+}
+.value-proposition li {
+	text-align: center;
+	color: #000000;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.value-proposition p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 18px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+.filler {
+	background-color: #5CACEE;
+	height: 50px;
+}
+.youtube-video {
+	background: #5CACEE;
+}
+.youtube-video iframe {
+	display: block;
+	margin: auto;
+}
+.footer {
+	background-color: #000000;
+}
+.footer p {
+	color: #ffffff;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	padding: 10px 0 5px 0;
+	text-align: center;
+}
